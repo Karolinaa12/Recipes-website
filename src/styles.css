@@ -8,12 +8,17 @@ h1 {
   font-size: 72px;
   font-weight: 700;
 }
-h2 {
+
+.hero h1 {
+  font-size: 72px;
+  font-weight: 700;
+}
+.hero h2 {
   font-size: 28px;
   font-weight: 700;
 }
 
-p {
+.hero p {
   font-size: 24px;
   font-weight: 700;
   line-height: 35px;
@@ -28,6 +33,10 @@ li {
 
 nav {
   padding: 20px 0;
+}
+nav a {
+  text-decoration: none;
+  color: black;
 }
 
 .hero {
@@ -44,4 +53,35 @@ nav {
 
 .recipes {
   padding: 60px 20px;
+}
+
+.about-me-section {
+  max-width: 960px;
+  display: block;
+  margin: 100px auto;
+}
+
+.about-me-section h2 {
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.about-me-section p {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.favourite-recipe h3 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.favourite-recipe h4 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.favourite-recipe p {
+  font-size: 16px;
+  line-height: 30px;
 }
