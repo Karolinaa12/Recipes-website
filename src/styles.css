@@ -8,11 +8,26 @@ h1 {
   font-size: 72px;
   font-weight: 700;
 }
+h2 {
+  font-size: 28px;
+  font-weight: 700;
+}
 
 p {
   font-size: 24px;
   font-weight: 700;
   line-height: 35px;
+}
+
+li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav {
+  padding: 20px 0;
 }
 
 .hero {
@@ -24,6 +39,9 @@ p {
       rgba(0, 0, 0, 0.2) 100%
     ),
     url("/images/background.png");
-  margin: 135px auto;
-  padding: 60px 80px;
+  padding: 40px 0;
+}
+
+.recipes {
+  padding: 60px 20px;
 }
