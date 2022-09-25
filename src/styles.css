@@ -30,6 +30,9 @@ li {
 nav {
   padding: 20px 0;
 }
+.active {
+  color: #f65282;
+}
 
 .hero {
   text-align: center;
