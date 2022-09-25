@@ -85,3 +85,32 @@ nav a {
   font-size: 16px;
   line-height: 30px;
 }
+
+.recipe h2 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.recipe h3 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.recipe h4 {
+  font-size: 18px;
+  font-weight: 800;
+  color: #f65282;
+}
+
+.recipe hr {
+  border-top: 2px dashed turquoise;
+}
+
+.recipe p {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.recipe-page .container {
+  max-width: 760px;
+}
