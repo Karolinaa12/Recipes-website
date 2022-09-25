@@ -4,24 +4,20 @@ body {
   font-family: "Nunito", sans-serif;
 }
 
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 700;
+}
+
 h1 {
   font-size: 72px;
-  font-weight: 700;
 }
 
-.hero h1 {
-  font-size: 72px;
-  font-weight: 700;
-}
-.hero h2 {
-  font-size: 28px;
-  font-weight: 700;
-}
-
-.hero p {
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 35px;
+a {
+  text-decoration: none;
+  color: black;
 }
 
 li {
@@ -33,10 +29,6 @@ li {
 
 nav {
   padding: 20px 0;
-}
-nav a {
-  text-decoration: none;
-  color: black;
 }
 
 .hero {
@@ -51,19 +43,26 @@ nav a {
   padding: 40px 0;
 }
 
+.hero h2 {
+  font-size: 28px;
+}
+
+.hero p {
+  font-size: 24px;
+  font-weight: 700;
+}
+
 .recipes {
   padding: 60px 20px;
 }
 
 .about-me-section {
   max-width: 960px;
-  display: block;
   margin: 100px auto;
 }
 
 .about-me-section h2 {
   font-size: 64px;
-  font-weight: 700;
 }
 
 .about-me-section p {
@@ -71,14 +70,17 @@ nav a {
   line-height: 30px;
 }
 
+.about-me-section i {
+  font-size: 16px;
+  margin-left: 20px;
+}
+
 .favourite-recipe h3 {
   font-size: 36px;
-  font-weight: 700;
 }
 
 .favourite-recipe h4 {
   font-size: 24px;
-  font-weight: 700;
 }
 
 .favourite-recipe p {
@@ -88,12 +90,10 @@ nav a {
 
 .recipe h2 {
   font-size: 36px;
-  font-weight: 700;
 }
 
 .recipe h3 {
   font-size: 24px;
-  font-weight: 700;
 }
 
 .recipe h4 {
@@ -115,12 +115,12 @@ nav a {
   max-width: 760px;
 }
 
-.contact-us-section .container {
+.contact-us-section i {
+  margin-right: 20px;
 }
 
-.contact-us-section h3 {
+.contact-us-section h2 {
   font-size: 30px;
-  font-weight: 700;
   color: #662eed;
   text-transform: capitalize;
 }
@@ -128,4 +128,37 @@ nav a {
 .contact-us-section p {
   font-size: 24px;
   line-height: 30px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+  }
+
+  body {
+    text-align: center;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  .about-me-section h2 {
+    font-size: 44px;
+  }
+
+  .recipe h2 {
+    font-size: 24px;
+  }
+  .recipe h3 {
+    font-size: 20px;
+  }
+
+  .contact-us-section h2 {
+    font-size: 24px;
+  }
+
+  .contact-us-section p {
+    font-size: 18px;
+  }
 }
